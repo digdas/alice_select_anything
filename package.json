@@ -1,0 +1,24 @@
+{
+  "name": "alice_select_anything",
+  "version": "0.0.0",
+  "description": "Select anything dialog for Alice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digdas/alice_select_anything.git"
+  },
+  "author": "Stanislav Ulegin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/digdas/alice_select_anything/issues"
+  },
+  "homepage": "https://github.com/digdas/alice_select_anything#readme",
+  "dependencies": {
+    "ngrok": "^3.0.1",
+    "nodemon": "^1.18.3",
+    "yandex-dialogs-sdk": "^1.4.6"
+  }
+}
