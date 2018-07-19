@@ -9,12 +9,7 @@ const startNgrok = async () => {
 const alice = new Alice();
 
 alice.any(ctx => {
-  console.log(JSON.stringify(ctx));
-  ctx.reply('хватит заниматься ерундой');
-});
-
-alice.command('хочу кофе', ctx => {
-  ctx.reply('хоти дальше');
+  ctx.reply(`Стас говорит лучше сядь на ${ctx.req.request.original_utterance}`);
 });
 
 alice.listen('/', 8087);
